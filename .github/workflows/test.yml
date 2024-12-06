@@ -16,3 +16,5 @@ jobs:
           node-version: 14
       - run: npm install
       - run: npx nyc mocha
+      - name: Upload Coverage to Coveralls
+        run: npx nyc report --reporter=text-lcov | npx coveralls
