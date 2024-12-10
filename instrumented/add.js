@@ -1,0 +1,15 @@
+function cov_mg4jaas5e(){var path="D:\\Msc in DS-Course Materials\\Software Testing\\COMP.SE.200-Part 2\\src\\add.js";var hash="d7534a823acb7d485a9bde2c700492d9aee01faf";var global=new Function("return this")();var gcv="__coverage__";var coverageData={path:"D:\\Msc in DS-Course Materials\\Software Testing\\COMP.SE.200-Part 2\\src\\add.js",statementMap:{"0":{start:{line:16,column:12},end:{line:16,column:71}},"1":{start:{line:16,column:52},end:{line:16,column:67}}},fnMap:{"0":{name:"(anonymous_0)",decl:{start:{line:16,column:32},end:{line:16,column:33}},loc:{start:{line:16,column:52},end:{line:16,column:67}},line:16}},branchMap:{},s:{"0":0,"1":0},f:{"0":0},b:{},_coverageSchema:"1a1c01bbd47fc00a2c39e90264f33305004495a9",hash:"d7534a823acb7d485a9bde2c700492d9aee01faf"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore
+cov_mg4jaas5e=function(){return actualCoverage;};}return actualCoverage;}cov_mg4jaas5e();import createMathOperation from'./.internal/createMathOperation.js';/**
+ * Adds two numbers.
+ *
+ * @since 3.4.0
+ * @category Math
+ * @param {number} augend The first number in an addition.
+ * @param {number} addend The second number in an addition.
+ * @returns {number} Returns the total.
+ * @example
+ *
+ * add(6, 4)
+ * // => 10
+ */const add=(cov_mg4jaas5e().s[0]++,createMathOperation((augend,addend)=>{cov_mg4jaas5e().f[0]++;cov_mg4jaas5e().s[1]++;return augend+addend;},0));export default add;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfbWc0amFhczVlIiwiYWN0dWFsQ292ZXJhZ2UiLCJjcmVhdGVNYXRoT3BlcmF0aW9uIiwiYWRkIiwicyIsImF1Z2VuZCIsImFkZGVuZCIsImYiXSwic291cmNlcyI6WyJhZGQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGNyZWF0ZU1hdGhPcGVyYXRpb24gZnJvbSAnLi8uaW50ZXJuYWwvY3JlYXRlTWF0aE9wZXJhdGlvbi5qcydcblxuLyoqXG4gKiBBZGRzIHR3byBudW1iZXJzLlxuICpcbiAqIEBzaW5jZSAzLjQuMFxuICogQGNhdGVnb3J5IE1hdGhcbiAqIEBwYXJhbSB7bnVtYmVyfSBhdWdlbmQgVGhlIGZpcnN0IG51bWJlciBpbiBhbiBhZGRpdGlvbi5cbiAqIEBwYXJhbSB7bnVtYmVyfSBhZGRlbmQgVGhlIHNlY29uZCBudW1iZXIgaW4gYW4gYWRkaXRpb24uXG4gKiBAcmV0dXJucyB7bnVtYmVyfSBSZXR1cm5zIHRoZSB0b3RhbC5cbiAqIEBleGFtcGxlXG4gKlxuICogYWRkKDYsIDQpXG4gKiAvLyA9PiAxMFxuICovXG5jb25zdCBhZGQgPSBjcmVhdGVNYXRoT3BlcmF0aW9uKChhdWdlbmQsIGFkZGVuZCkgPT4gYXVnZW5kICsgYWRkZW5kLCAwKVxuXG5leHBvcnQgZGVmYXVsdCBhZGRcbiJdLCJtYXBwaW5ncyI6Im02QkFlWTtBQUFBQSxhQUFBLFNBQUFBLENBQUEsU0FBQUMsY0FBQSxXQUFBQSxjQUFBLEVBQUFELGFBQUEsR0FmWixNQUFPLENBQUFFLG1CQUFtQixLQUFNLG9DQUFvQyxDQUVwRTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxHQUNBLEtBQU0sQ0FBQUMsR0FBRyxFQUFBSCxhQUFBLEdBQUFJLENBQUEsTUFBR0YsbUJBQW1CLENBQUMsQ0FBQ0csTUFBTSxDQUFFQyxNQUFNLEdBQUssQ0FBQU4sYUFBQSxHQUFBTyxDQUFBLE1BQUFQLGFBQUEsR0FBQUksQ0FBQSxhQUFBQyxNQUFNLENBQUdDLE1BQU0sQ0FBRCxDQUFDLENBQUUsQ0FBQyxDQUFDLEVBRXZFLGNBQWUsQ0FBQUgsR0FBRyIsImlnbm9yZUxpc3QiOltdfQ==
