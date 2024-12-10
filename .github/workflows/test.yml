@@ -31,9 +31,9 @@ jobs:
       run: npm run coverage
 
     - name: Upload coverage to Coveralls
-      run: nyc report --reporter=text-lcov | coveralls
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+      run: npx nyc report --reporter=text-lcov | npx coveralls
 
     - name: Show coverage summary
-      run: cat ./coverage/lcov-report/index.html
+      run: npx nyc report --reporter=text-summary
