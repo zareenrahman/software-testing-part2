@@ -1,0 +1,15 @@
+function cov_2a7fai2bda(){var path="D:\\Msc in DS-Course Materials\\Software Testing\\COMP.SE.200-Part 2\\src\\capitalize.js";var hash="8cd2a46105d21cc476fd1b63002a7b8b6e232926";var global=new Function("return this")();var gcv="__coverage__";var coverageData={path:"D:\\Msc in DS-Course Materials\\Software Testing\\COMP.SE.200-Part 2\\src\\capitalize.js",statementMap:{"0":{start:{line:17,column:19},end:{line:17,column:73}},"1":{start:{line:17,column:31},end:{line:17,column:73}}},fnMap:{"0":{name:"(anonymous_0)",decl:{start:{line:17,column:19},end:{line:17,column:20}},loc:{start:{line:17,column:31},end:{line:17,column:73}},line:17}},branchMap:{},s:{"0":0,"1":0},f:{"0":0},b:{},_coverageSchema:"1a1c01bbd47fc00a2c39e90264f33305004495a9",hash:"8cd2a46105d21cc476fd1b63002a7b8b6e232926"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore
+cov_2a7fai2bda=function(){return actualCoverage;};}return actualCoverage;}cov_2a7fai2bda();import upperFirst from'./upperFirst.js';import toString from'./toString.js';/**
+ * Converts the first character of `string` to upper case and the remaining
+ * to lower case.
+ *
+ * @since 3.0.0
+ * @category String
+ * @param {string} [string=''] The string to capitalize.
+ * @returns {string} Returns the capitalized string.
+ * @example
+ *
+ * capitalize('FRED')
+ * // => 'Fred'
+ */cov_2a7fai2bda().s[0]++;const capitalize=string=>{cov_2a7fai2bda().f[0]++;cov_2a7fai2bda().s[1]++;return upperFirst(toString(string).toLowerCase());};export default capitalize;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMmE3ZmFpMmJkYSIsImFjdHVhbENvdmVyYWdlIiwidXBwZXJGaXJzdCIsInRvU3RyaW5nIiwicyIsImNhcGl0YWxpemUiLCJzdHJpbmciLCJmIiwidG9Mb3dlckNhc2UiXSwic291cmNlcyI6WyJjYXBpdGFsaXplLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB1cHBlckZpcnN0IGZyb20gJy4vdXBwZXJGaXJzdC5qcydcbmltcG9ydCB0b1N0cmluZyBmcm9tICcuL3RvU3RyaW5nLmpzJ1xuXG4vKipcbiAqIENvbnZlcnRzIHRoZSBmaXJzdCBjaGFyYWN0ZXIgb2YgYHN0cmluZ2AgdG8gdXBwZXIgY2FzZSBhbmQgdGhlIHJlbWFpbmluZ1xuICogdG8gbG93ZXIgY2FzZS5cbiAqXG4gKiBAc2luY2UgMy4wLjBcbiAqIEBjYXRlZ29yeSBTdHJpbmdcbiAqIEBwYXJhbSB7c3RyaW5nfSBbc3RyaW5nPScnXSBUaGUgc3RyaW5nIHRvIGNhcGl0YWxpemUuXG4gKiBAcmV0dXJucyB7c3RyaW5nfSBSZXR1cm5zIHRoZSBjYXBpdGFsaXplZCBzdHJpbmcuXG4gKiBAZXhhbXBsZVxuICpcbiAqIGNhcGl0YWxpemUoJ0ZSRUQnKVxuICogLy8gPT4gJ0ZyZWQnXG4gKi9cbmNvbnN0IGNhcGl0YWxpemUgPSAoc3RyaW5nKSA9PiB1cHBlckZpcnN0KHRvU3RyaW5nKHN0cmluZykudG9Mb3dlckNhc2UoKSlcblxuXG5leHBvcnQgZGVmYXVsdCBjYXBpdGFsaXplXG4iXSwibWFwcGluZ3MiOiJrN0JBZVk7QUFBQUEsY0FBQSxTQUFBQSxDQUFBLFNBQUFDLGNBQUEsV0FBQUEsY0FBQSxFQUFBRCxjQUFBLEdBZlosTUFBTyxDQUFBRSxVQUFVLEtBQU0saUJBQWlCLENBQ3hDLE1BQU8sQ0FBQUMsUUFBUSxLQUFNLGVBQWUsQ0FFcEM7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsR0FaQUgsY0FBQSxHQUFBSSxDQUFBLE1BYUEsS0FBTSxDQUFBQyxVQUFVLENBQUlDLE1BQU0sRUFBSyxDQUFBTixjQUFBLEdBQUFPLENBQUEsTUFBQVAsY0FBQSxHQUFBSSxDQUFBLGFBQUFGLFVBQVUsQ0FBQ0MsUUFBUSxDQUFDRyxNQUFNLENBQUMsQ0FBQ0UsV0FBVyxDQUFDLENBQUMsQ0FBQyxDQUFELENBQUMsQ0FHekUsY0FBZSxDQUFBSCxVQUFVIiwiaWdub3JlTGlzdCI6W119
