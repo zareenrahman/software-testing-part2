@@ -11,32 +11,21 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@babel/register": "^7.25.9",
     "axios": "^1.7.9",
     "chai": "^4.5.0",
     "mocha": "^10.8.2",
     "node-fetch": "^3.3.2",
     "nyc": "^15.1.0"
   },
-  "nyc": {
-    "all": true,
-    "include": [
-      "src/**/*.js"
-    ],
-    "exclude": [
-      "test/**/*.js",
-      "node_modules"
-    ],
-    "reporter": [
-      "text",
-      "html"
-    ],
-    "extension": [
-      ".js"
-    ]
-  },
-  "directories": {
-    "test": "test"
-  },
+"nyc": {
+  "all": true,
+  "include": ["src/**/*.js"],
+  "exclude": ["test/**/*.js", "node_modules"],
+  "reporter": ["text", "html"],
+  "extension": [".js"],
+  "require": ["@babel/register"]
+},
   "dependencies": {
     "aggregate-error": "^3.1.0",
     "ajv": "^6.12.6",
